@@ -93,6 +93,9 @@ function bonusArray(array){
   for (employee of array){
     newEmployeeArray.push(newEmployeeObject(employee));
   }
+/*  for (employee of newEmployeeArray){
+    $(#EmployeeBonusInformation).append(`<br>` ${employee.name} )
+  }*/
   return newEmployeeArray;
 }
 
